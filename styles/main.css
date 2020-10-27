@@ -12,13 +12,14 @@ main {
   
   main h2 {
     margin: 18px 0 12px 0;
-    border-bottom: 1px solid #5c4f41;
+    /*border-bottom: 1px solid #5c4f41;*/
     font-family: 'Special Elite', cursive;
     font-size: 24px;
+    text-align: center;
   }
   main h3 {
     margin: 18px 0 12px 0;
-    border-bottom: 1px solid #5c4f41;
+    /*border-bottom: 1px solid #5c4f41;*/
     font-family: 'Special Elite', cursive;
     font-size: 18px;
   }
@@ -28,6 +29,9 @@ main {
     margin-top: 0;
   }
   
+  h2 {
+    text-align: center;
+  }
   .group img {
     width: 100%;
     margin-bottom: 10px;
@@ -41,16 +45,16 @@ main {
   
   .item {
   flex: 1;
-  margin: 10px;
+  margin: 20px;
   }
   
   .item-double {
   flex: 2;
-  margin: 10px;
+  margin: 20px;
   }
   
   section.defined {
-    background-color: tan;
+    /*background-color: tan;*/
   }
   
   
