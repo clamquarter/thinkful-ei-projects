@@ -1,0 +1,88 @@
+ body {
+  font-family: arial;
+  text-align: center;
+  margin: 0;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 30;
+  
+}
+
+header {
+  background-color: #0B0C10;
+  padding: 40px;
+  font-size: 36px;
+}
+
+header h1 {
+color: #def2f1;
+font-family: Impact, Charcoal, sans-serif;
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+.block {
+  border: 1px solid grey;
+  width: 75%;
+  margin: auto;
+}
+
+button,
+.questions label {
+  width: 50%;
+  padding: 10px;
+  display: block;
+  margin: 3% auto;
+  border-radius: 50px;
+  border-color: white;
+  background-color: ;
+}
+
+#beginQuiz span {
+  text-align: left;
+  transform: rotate(350deg);
+  background-color: white;
+}
+
+img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+}
+
+.tally {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.questions input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.questions input[type="radio"]:checked + label {
+  background-color: white;
+}
+
+button:hover,
+.questions input[type="radio"]:hover + label {
+  background-color: yellow;
+
+}
+
+button:checked {
+  background-color: lightblue;
+}
+
+.questions input[type="radio"]:focus + label {
+  background-color: lightblue;
+}
